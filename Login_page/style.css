@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+   background: url(Image4.jpg) no-repeat center center fixed;
+   background-size: cover;
+}
+.container{
+   position:absolute ;
+   top: 40%;
+   left: 38.8%;
+   display: inline-block;
+}
+.container h1{
+   font-size: 2.5rem ;
+   margin-bottom: 1rem;
+   padding: 10px;
+   font-family: serif;
+   color: #491f5a;
+}
+.box{
+   width: 100%;
+}
+.box input{
+   font-family: 'Dosis',serif;
+   width: 75%;
+   border:none ;
+   outline: none;
+   color:black;
+   font-size: 20px;
+   margin: 10px;
+   padding: 5px 10px;
+   border-radius :10px;
+   
+}
+.btn{
+   cursor:pointer;
+   outline: none;
+   width:25%;
+   margin: 12px 0px ;
+   margin-left: 125px;
+   padding: 5px;
+   border-radius: 10px;
+   color:#d4c7bc;
+   font-weight: bold;
+}
+.box i{
+   width: 25px;
+   text-align: center;
+   color: #d4c7bc;
+}
+.btn:hover{
+   color:white;
+   background :#d4c7bc ;
+}
