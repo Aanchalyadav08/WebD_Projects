@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <main class="heading">
+      <h1>Stone Paper Scissor Game</h1>
+    </main>
+    <div class="content">
+
+      <button class="stone" onclick="
+        userMove='Stone';
+        computerChoice=choiceOfComputer();
+        showResult(userMove,computerChoice);
+        ">Stone</button>
+
+      <button class="paper" onclick="
+      userMove='Paper';
+      computerChoice=choiceOfComputer();
+      showResult(userMove,computerChoice);
+      ">Paper</button>
+
+      <button class="scissor" onclick="
+      userMove='Scissor';
+      computerChoice=choiceOfComputer();
+      showResult(userMove,computerChoice);
+      ">Scissor</button>
+
+    </div>
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
