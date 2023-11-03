@@ -1,0 +1,33 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  height:100vh;
+  width:100vw;
+}
+
+.heading{
+  margin:10px;
+}
+.content{
+  margin-top:20px;
+  display:flex; 
+}
+button{
+  margin:15px;
+  height:30px;
+  width:60px;
+  background-color:rgb(191, 186, 186);
+  border:1px solid black;
+  border-radius:5px;
+}
+.scorebox{
+  display:flex;
+  flex-direction:column;
+  margin:10px;
+}
+h3{
+  padding:4px;
+}
